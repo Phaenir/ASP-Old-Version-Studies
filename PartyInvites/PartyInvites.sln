@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartyInvites", "PartyInvites\PartyInvites.csproj", "{7A74CA33-58E4-4310-9AEF-025F0F4CF852}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PartyInvites.Tests", "PartyInvites.Tests\PartyInvites.Tests.csproj", "{0A66B1EC-0639-4865-8802-47163C0B890D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "PublishScripts", "PublishScripts", "{14820E08-E846-4948-959C-AF5DCD88837D}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\AzureVMPublishModule.psm1 = PublishScripts\AzureVMPublishModule.psm1
+		PublishScripts\Publish-WebApplicationVM.ps1 = PublishScripts\Publish-WebApplicationVM.ps1
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Configurations", "Configurations", "{AC916FF1-C319-4563-AF98-8A8B988FD467}"
+	ProjectSection(SolutionItems) = preProject
+		PublishScripts\Configurations\PartyInvites-VM-dev.json = PublishScripts\Configurations\PartyInvites-VM-dev.json
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7A74CA33-58E4-4310-9AEF-025F0F4CF852}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A74CA33-58E4-4310-9AEF-025F0F4CF852}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A74CA33-58E4-4310-9AEF-025F0F4CF852}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A74CA33-58E4-4310-9AEF-025F0F4CF852}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A66B1EC-0639-4865-8802-47163C0B890D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A66B1EC-0639-4865-8802-47163C0B890D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A66B1EC-0639-4865-8802-47163C0B890D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A66B1EC-0639-4865-8802-47163C0B890D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{AC916FF1-C319-4563-AF98-8A8B988FD467} = {14820E08-E846-4948-959C-AF5DCD88837D}
+	EndGlobalSection
+EndGlobal
